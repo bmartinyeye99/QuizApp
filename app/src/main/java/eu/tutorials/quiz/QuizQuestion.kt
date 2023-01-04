@@ -18,6 +18,7 @@ class QuizQuestion : AppCompatActivity(),View.OnClickListener {
     private var selectedAnswer: Int = 0    // number of the selected answer
     private var questionList: ArrayList<Question>? = null   // list of all questions
     private var correctAnswers = 0
+    // ? allows the variable to have null value
     private var userName: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
