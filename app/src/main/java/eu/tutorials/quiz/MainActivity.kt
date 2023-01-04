@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
 
+        // if username field is empty, and the button is clicked, than the toast shows up
         btn_start.setOnClickListener {
             if (at_name.text.toString().isEmpty()){
 
